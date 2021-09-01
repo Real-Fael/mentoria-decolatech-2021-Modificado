@@ -9,10 +9,24 @@ namespace AgenciaBancaria.App
         {
             try
             {
+                Console.log("***************Bem Vindo***************") 
+                do{
+                    Console.log("1 - Criar uma Nova Conta") 
+                    Console.log("1 - ") 
+                    Console.log("1 - ") 
+                    Console.log("1 - ") 
+                
+                }while(opc="8")
+
                 // Criação da conta
                 Endereco endereco = new Endereco("Rua teste", "12345678", "Pederneiras", "SP");
                 Cliente cliente = new Cliente("Carla", "123456", "456789", endereco);
                 ContaCorrente conta = new ContaCorrente(cliente, 100);
+                MeuBanco meuBanco = new MeuBanco();
+                meuBanco.AdicionarConta(conta);
+
+                Console.WriteLine(meuBanco.ListarContas());
+                //Console.WriteLine(meuBanco.IndiceConta(7));
 
                 Console.WriteLine("Conta " + conta.Situacao + ": " + conta.NumeroConta + "-" + 
                     conta.DigitoVerificador);
