@@ -1,5 +1,16 @@
-# mentoria-decolatech-2021
-Repositório criado para armazenar projeto realizado durante mentoria do Decola Tech 2021.
+# Projeto modificado Bootcamp DecolaTech-2021 Avanade 
+
+O projeto tem como objetivo principal aplicar os conceitos de OO na prática, utilizando a temática de uma conta bancária onde é possível depositar, sacar, criar contas e ter acesso a um simples extrato.
+
+Modifiquei o projeto original criando uma Classe MeuBanco, onde o mesmo tem controle e pode gerenciar diversas contas, além de possibilitar fazer transferências, tentei implementar de forma a não precisar mexer no projeto inicial, somente onde foi encontrado problemas, tentando aplicar o Open-closed principle. 
+
+Desenvolvi também uma Classe chamada UserInterface para implementar uma interface console para interagir com o usuário.
+
+Para executar o projeto entre no diretório AgenciaBancaria.App que é a responsável pela interface do projeto e utilize o comando. 
+- `dotnet run` 
+
+Teste e se encontrar erros por favor me contate.
+
 
 # Objetivo
 Observar os pilares da orientação a objetos (abstração, encapsulamento, herança e polimorfismo) interpretando e implementando um domínio de negócio “Agência bancária”.
